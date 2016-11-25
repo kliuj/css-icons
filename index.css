@@ -1,0 +1,24 @@
+*{
+  margin:0;padding: 0
+}
+body, html {
+    height: 100%;
+}
+body{
+  background-color: #B9D194;
+}
+.content{
+  text-align: left;
+  min-height: 100%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+  width: 600px;
+  padding: 50px 0
+}
+.icon_demo{
+  padding: 13px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
