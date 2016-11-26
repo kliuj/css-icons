@@ -21,6 +21,8 @@ body{
   position: relative;
   display: inline-block;
   cursor: pointer;
+  width: 50px;
+  box-sizing: border-box;
 }
 .all{
   font-size: 18px;
