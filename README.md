@@ -17,11 +17,9 @@ css-icons
     <i class="css-icon-close-circle"></i>
 ```
 就可以看到效果
+![image](https://github.com/kliuj/css-icons/blob/master/img/1.png)
 
 目前有47个图标，还会继续添加更新...
-
-
-![image](https://github.com/kliuj/css-icons/blob/master/img/1.png)
 
 ![image](https://github.com/kliuj/css-icons/blob/master/img/2.png)
 
