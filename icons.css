@@ -618,5 +618,73 @@ margin: 0 4px
   -ms-transform: rotate(-45deg);
 }
 .css-icon-message{
-  
+  height: 18px;
+  width: 28px;
+  border-radius: 4px;
+  border: 2px solid #fff;
+  background-color: #fff
+}
+.css-icon-message:before{
+  width: 10px;
+  height: 10px;
+  border: 2px solid #fff;
+  transform:translate(50%,-40%)  rotate(45deg);
+  -webkit-transform: translate(50%,-40%) rotate(45deg);
+  -ms-transform:translate(50%,-40%) rotate(45deg);
+  top:100%;
+}
+.css-icon-link:before{
+  height: 10px;
+  width: 24px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  transform:translateY(100%)  rotate(-45deg);
+  -webkit-transform:translateY(100%)  rotate(-45deg);
+  -ms-transform:translateY(100%)  rotate(-45deg);
+}
+.css-icon-link:after{
+  height: 10px;
+  width: 24px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  transform:translate(55%,20%) rotate(-45deg);
+  -webkit-transform:translate(55%,20%) rotate(-45deg);
+  -ms-transform:translate(55%,20%)  rotate(-45deg);
+}
+.css-icon-heart{
+  border: 2px solid #fff;
+  transform:  rotate(-45deg);
+  -webkit-transform:  rotate(-45deg);
+  -ms-transform:  rotate(-45deg);
+  border-right-color: transparent;
+  border-top-color: transparent;
+  width: 20px;
+  height: 20px;
+  margin-left:4px;
+}
+.css-icon-heart:before{
+  width: 16px;
+height: 20px;
+border-radius: 50%;
+background-color: transparent;
+border: 2px solid #fff;
+border-right-color: transparent;
+border-top-color: transparent;
+transform: translate(49%,-3%) rotate(-145deg);
+-webkit-transform: translate(49%,-3%) rotate(-145deg);
+-ms-transform: translate(49%,-3%) rotate(-145deg);
+}
+.css-icon-heart:after{
+  width: 20px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  transform: translate(-16%,-43%) rotate(152deg);
+  -webkit-transform: translate(-16%,-43%) rotate(152deg);
+  -ms-transform:translate(-16%,-43%) rotate(152deg);
 }

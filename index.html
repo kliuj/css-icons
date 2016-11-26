@@ -12,7 +12,10 @@
 <body>
   <div class="title">CSS-ICONS</div>
   <div class="content">
-    <p class="all"><span id="total"></span> ICONS are available</p>
+    <p class="all"><span id="total"></span> ICONS are available and continue to increase</p>
+    <div style="height:47px">
+      <p class="all" id="choose">Your choice is <span id="chooseName"></span> </p>
+    </div>
     <label class="icon_demo">
         <i class="css-icon-close-circle"></i>
     </label>
@@ -148,10 +151,25 @@
     <label class="icon_demo">
         <i class="css-icon-message"></i>
     </label>
+    <label class="icon_demo">
+        <i class="css-icon-link"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-heart"></i>
+    </label>
   </div>
   <script>
     var allList = document.querySelectorAll('.icon_demo');
-    document.getElementById("total").innerHTML = allList.length
+    document.getElementById("total").innerHTML = allList.length;
+    for(var i = 0;i<allList.length;i++){
+      var item = allList[i]
+      item.addEventListener("click",function(e){
+        var target = e.currentTarget,
+            _className = target.firstElementChild.className;
+        document.getElementById("choose").style.display = "block";
+        document.getElementById("chooseName").innerHTML = _className;
+      })
+    }
   </script>
 </body>
 </html>
