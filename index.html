@@ -10,7 +10,9 @@
   <link rel="stylesheet" href="icons.css">
 </head>
 <body>
+  <div class="title">CSS-ICONS</div>
   <div class="content">
+    <p class="all"><span id="total"></span> ICONS are available</p>
     <label class="icon_demo">
         <i class="css-icon-close-circle"></i>
     </label>
@@ -116,6 +118,40 @@
     <label class="icon_demo">
         <i class="css-icon-person-b"></i>
     </label>
+    <label class="icon_demo">
+        <i class="css-icon-shoppingcart"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-scan"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-time"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-location"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-refresh"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-voice-more"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-voice-less"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-voice-zero"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-voice-shut"></i>
+    </label>
+    <label class="icon_demo">
+        <i class="css-icon-message"></i>
+    </label>
   </div>
+  <script>
+    var allList = document.querySelectorAll('.icon_demo');
+    document.getElementById("total").innerHTML = allList.length
+  </script>
 </body>
 </html>

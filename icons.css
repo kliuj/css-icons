@@ -23,6 +23,7 @@
 [class*=close]{
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
 }
 [class*=close]:before{
   width: 12px;
@@ -31,6 +32,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=close]:after{
   width: 2px;
@@ -39,6 +41,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=plus]:before{
   width: 12px;
@@ -47,6 +50,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=plus]:after{
   width: 2px;
@@ -55,6 +59,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=delete]:before{
   width: 12px;
@@ -63,6 +68,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=plus]:after{
   width: 2px;
@@ -71,6 +77,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=delete]:before{
   width: 12px;
@@ -79,6 +86,7 @@
   top:50%;
   transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 [class*=left]:before{
   width: 8px;
@@ -92,6 +100,7 @@
   top:50%;
   transform: translate(-25%, -50%) rotate(45deg);
   -webkit-transform: translate(-25%, -50%) rotate(45deg);
+  -ms-transform: translate(-25%, -50%) rotate(45deg);
   background-color: transparent;
 }
 [class*=right]:before{
@@ -106,6 +115,7 @@
   top:50%;
   transform: translate(-75%, -50%) rotate(45deg);
   -webkit-transform: translate(-75%, -50%) rotate(45deg);
+  -ms-transform: translate(-75%, -50%) rotate(45deg);
   background-color: transparent;
 }
 [class*=up]:before{
@@ -120,6 +130,7 @@
   top:50%;
   transform: translate(-50%, -25%) rotate(45deg);
   -webkit-transform: translate(-50%, -25%) rotate(45deg);
+  -ms-transform: translate(-50%, -25%) rotate(45deg);
   background-color: transparent;
 }
 [class*=down]:before{
@@ -134,6 +145,7 @@
   top:50%;
   transform: translate(-50%, -75%) rotate(45deg);
   -webkit-transform: translate(-50%, -75%) rotate(45deg);
+  -ms-transform: translate(-50%, -75%) rotate(45deg);
   background-color: transparent;
 }
 [class*=agree]:after{
@@ -143,6 +155,7 @@
   top: 10px;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
 }
 [class*=agree]:before{
   width: 7px;
@@ -151,6 +164,7 @@
   top: 12px;
   transform: translate(-50%, -50%) rotate(45deg);
   -webkit-transform: translate(-50%, -50%) rotate(45deg);
+  -ms-transform: translate(-50%, -50%) rotate(45deg);
 }
 [class*=info]:before{
   content: "i"!important;
@@ -159,6 +173,7 @@
   top: 50%;
   transform: translate(-50%, -50%) ;
   -webkit-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
   font-size: 20px;
   line-height: 0
 }
@@ -170,6 +185,7 @@
   top: 50%;
   transform: translate(-50%, -50%) ;
   -webkit-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
 }
 [class*=doubt]:before{
   content: "?"!important;
@@ -178,6 +194,7 @@
   top: 50%;
   transform: translate(-50%, -50%) ;
   -webkit-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
   font-size: 20px;
   line-height: 0
 }
@@ -194,6 +211,7 @@
   height: 2px;
   transform: rotate(-45deg) ;
   -webkit-transform: rotate(-45deg) ;
+  -ms-transform: rotate(-45deg) ;
   bottom: 5px;
 }
 .css-icon-search-right:before{
@@ -208,6 +226,7 @@
   height: 2px;
   transform: rotate(45deg) ;
   -webkit-transform: rotate(45deg) ;
+  -ms-transform: rotate(45deg) ;
   bottom: 5px;
   right: 0
 }
@@ -235,6 +254,7 @@
   top: 50%;
   transform: translate(-50%, -50%) ;
   -webkit-transform: translate(-50%, -50%) ;
+  -ms-transform: translate(-50%, -50%) ;
 }
 .css-icon-email{
   width: 24px;
@@ -251,6 +271,7 @@
   top: -10px;
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
 }
 .css-icon-home{
   height: 14px;
@@ -271,6 +292,7 @@
   top: 50%;
   transform: translate(-50%, -80%) rotate(45deg) ;
   -webkit-transform: translate(-50%, -80%) rotate(45deg);
+  -ms-transform: translate(-50%, -80%) rotate(45deg);
 }
 .css-icon-home:after{
   width: 8px;
@@ -282,6 +304,7 @@
   left: 50%;
   transform: translate(-50%, 0) ;
   -webkit-transform: translate(-50%, 0) ;
+  -ms-transform: translate(-50%, 0) ;
 }
 .css-icon-navicon{
   width: 20px;
@@ -299,6 +322,7 @@
   left: 50%;
   transform: translate(-50%, -30%) ;
   -webkit-transform: translate(-50%, -30%) ;
+  -ms-transform: translate(-50%, -30%) ;
 }
 .css-icon-star{
   border-left: 18px transparent solid;
@@ -306,6 +330,7 @@
   border-right: 18px transparent solid;
   transform:  translate(4%, -21%) rotate(27deg);
   -webkit-transform:  translate(4%, -21%) rotate(27deg);
+  -ms-transform:  translate(4%, -21%) rotate(27deg);
 }
 .css-icon-star:before{
   border-left: 18px transparent solid;
@@ -315,6 +340,7 @@
   height: 12px;
   transform: translate(-50%, 30%) rotate(-56deg);
   -webkit-transform: translate(-50%, 30%) rotate(-56deg);
+  -ms-transform: translate(-50%, 30%) rotate(-56deg);
   background-color: transparent;
   left: 50%;
   top:50%;
@@ -326,6 +352,7 @@
   background-color: transparent;
   transform: translate(-90%, 47%) rotate(-29deg);
   -webkit-transform: translate(-90%, 47%) rotate(-29deg);
+  -ms-transform: translate(-90%, 47%) rotate(-29deg);
 }
 .css-icon-half-star{
   border-left: 24px transparent solid;
@@ -333,6 +360,7 @@
   border-right: 14px transparent solid;
   transform: translate(-5%, 10%) rotate(107deg);
   -webkit-transform: translate(-5%, 10%) rotate(107deg);
+  -ms-transform: translate(-5%, 10%) rotate(107deg);
 }
 .css-icon-half-star:before{
   border-left: 4px transparent solid;
@@ -340,6 +368,7 @@
   border-right: 4px transparent solid;
   transform: translate(-118%, 201%) rotate(-178deg);
   -webkit-transform: translate(-118%, 201%) rotate(-178deg);
+  -ms-transform: translate(-118%, 201%) rotate(-178deg);
   background-color: transparent;
 }
 .css-icon-share{
@@ -349,12 +378,14 @@
   box-shadow: inset 0 0 0 32px,22px -11px 0 0,22px 11px 0 0;
   transform: translateX(-16px) ;
   -webkit-transform: translateX(-16px) ;
+  -ms-transform: translateX(-16px) ;
 }
 .css-icon-share:before{
   height: 2px;
   width: 29px;
   transform: translate(-20%, -63%) rotate(150deg);
   -webkit-transform: translate(-20%, -63%) rotate(150deg);
+  -ms-transform: translate(-20%, -63%) rotate(150deg);
   left: 85%;
   top: -10%;
 }
@@ -363,6 +394,7 @@
   width: 29px;
   transform: translate(-20%, -63%) rotate(30deg);
   -webkit-transform: translate(-20%, -62%) rotate(30deg);
+  -ms-transform: translate(-20%, -62%) rotate(30deg);
   left: 72%;
   top: 128%;
 }
@@ -382,6 +414,7 @@
   left: 5px;
   transform:  rotate(-18deg);
   -webkit-transform:  rotate(-18deg);
+  -ms-transform:  rotate(-18deg);
 }
 .css-icon-share-b:after{
   background-color: transparent;
@@ -405,6 +438,7 @@
   left: 6px;
   transform: translateX(-100%) rotate(-30deg);
   -webkit-transform: translateX(-100%) rotate(-30deg);
+  -ms-transform: translateX(-100%) rotate(-30deg);
 }
 .css-icon-person:after{
   width: 10px;
@@ -413,6 +447,7 @@
   right: 6px;
   transform: translateX(100%) rotate(30deg);
   -webkit-transform: translateX(100%) rotate(30deg);
+  -ms-transform: translateX(100%) rotate(30deg);
 }
 .css-icon-person-b{
   border: 2px solid #fff;
@@ -421,6 +456,7 @@
   border-right-color: transparent;
   transform:  rotate(45deg);
   -webkit-transform:  rotate(45deg);
+  -ms-transform:  rotate(45deg);
   top:14px
 }
 .css-icon-person-b:before{
@@ -439,4 +475,148 @@
   left: -2px;
   transform:  rotate(-45deg);
   -webkit-transform:  rotate(-45deg);
+  -ms-transform:  rotate(-45deg);
+}
+.css-icon-shoppingcart{
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 20px solid #fff;
+  border-top: 16px solid #fff;
+  border-radius: 2px;
+}
+.css-icon-shoppingcart:before{
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  top: 1px;
+  box-shadow: inset 0 0 0 1px,16px 0px,-13px -21px;
+}
+.css-icon-scan{
+  height: 10px;
+  border: 2px solid #fff;
+  border-bottom-color: transparent;
+  transform:  translateY(-8px);
+  -webkit-transform: translateY(-8px);
+  -ms-transform: translateY(-8px);
+}
+.css-icon-scan:before{
+  height: 10px;
+  border: 2px solid #fff;
+  border-top-color: transparent;
+  width: 24px;
+  background-color: transparent;
+  left: -2px;
+  top:15px
+}
+.css-icon-scan:after{
+  width: 24px;
+  height: 2px;
+  top:11px;
+  left: -2px
+}
+.css-icon-time{
+  border-radius: 50%;
+  border: 2px solid #fff
+}
+.css-icon-time:before{
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid #fff;
+  left: 50%;
+  top:50%;
+  transform:  translate(-20%,-80%);
+  -webkit-transform: translate(-20%,-80%);
+  -ms-transform: translate(-20%,-80%);
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+.css-icon-location{
+    border-radius: 50% 50% 50% 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    border:2px solid #fff
+}
+.css-icon-location:before{
+  height: 10px;
+  width: 10px;
+  border-radius:50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  left: 50%;
+  top:50%;
+  transform:  translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+}
+.css-icon-refresh{
+  border: 2px solid #fff;
+  border-radius: 50%;
+  border-right-color: transparent;
+}
+.css-icon-refresh:before{
+  height: 8px;
+  width: 8px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  left: 11px;
+  top: -4px;
+}
+[class*=css-icon-voice-]{
+width: 0;
+height: 0;
+border: 8px solid #fff;
+border-top-color: transparent;
+border-left: none;
+border-bottom-color: transparent;
+padding: 6px 3px;
+box-shadow: 0px 0px 0px 3px #fff inset;
+margin: 0 4px
+}
+.css-icon-voice-more:before{
+  width: 12px;
+  height: 2px;
+  left: 17px;
+}
+.css-icon-voice-more:after{
+  width: 2px;
+  height: 12px;
+  left: 22px;
+  top: 1px;
+}
+.css-icon-voice-less:before{
+  width: 12px;
+  height: 2px;
+  left: 17px;
+}
+.css-icon-voice-zero:before{
+  width: 12px;
+  height: 2px;
+  left: 17px;
+  transform:  rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+.css-icon-voice-zero:after{
+  width: 2px;
+  height: 12px;
+  left: 22px;
+  top: 1px;
+  transform:  rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+}
+.css-icon-voice-shut:before{
+  width: 37px;
+  height: 2px;
+  left: -8px;
+  transform:  rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+}
+.css-icon-message{
+  
 }

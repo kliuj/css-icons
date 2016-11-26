@@ -14,11 +14,29 @@ body{
   position: relative;
   margin: 0 auto;
   width: 600px;
-  padding: 50px 0
+  padding: 0 50px 50px 50px 
 }
 .icon_demo{
   padding: 13px;
   position: relative;
   display: inline-block;
   cursor: pointer;
+}
+.all{
+  font-size: 18px;
+  font-family: georgia;
+  color:#fff;
+  padding: 10px;
+  font-weight: bold;
+}
+#total{
+  font-size: 44px;
+}
+.title{
+  font-size: 18px;
+  font-family: georgia;
+  color:#fff;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
 }
