@@ -672,9 +672,9 @@ background-color: transparent;
 border: 2px solid #fff;
 border-right-color: transparent;
 border-top-color: transparent;
-transform: translate(49%,-3%) rotate(-145deg);
--webkit-transform: translate(49%,-3%) rotate(-145deg);
--ms-transform: translate(49%,-3%) rotate(-145deg);
+transform: translate(49%,-4%) rotate(-143deg);
+-webkit-transform: translate(49%,-4%) rotate(-143deg);
+-ms-transform: translate(49%,-4%) rotate(-143deg);
 }
 .css-icon-heart:after{
   width: 20px;
@@ -684,7 +684,7 @@ transform: translate(49%,-3%) rotate(-145deg);
   border: 2px solid #fff;
   border-right-color: transparent;
   border-top-color: transparent;
-  transform: translate(-16%,-43%) rotate(152deg);
-  -webkit-transform: translate(-16%,-43%) rotate(152deg);
-  -ms-transform:translate(-16%,-43%) rotate(152deg);
+  transform: translate(-16%,-47%) rotate(152deg);
+  -webkit-transform: translate(-16%,-47%) rotate(152deg);
+  -ms-transform:translate(-16%,-47%) rotate(152deg);
 }

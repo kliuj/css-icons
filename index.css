@@ -48,3 +48,11 @@ body{
   padding: 10px;
   background-color: #504545
 }
+.github{
+  font-size: 24px;
+  font-family: georgia;
+  padding: 10px;
+  background-color: #504545;
+  text-decoration: none;
+  color:#fff
+}
