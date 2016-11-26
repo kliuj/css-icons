@@ -21,9 +21,9 @@ css-icons
 目前有47个图标，还会继续添加更新...
 
 
-![clipboard.png](./img/bVF5TU)
+![image](https://github.com/kliuj/css-icons/blob/master/img/1.png)
 
-![clipboard.png](./img/bVF5Tx)
+![image](https://github.com/kliuj/css-icons/blob/master/img/2.png)
 
 
 
