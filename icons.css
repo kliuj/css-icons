@@ -756,7 +756,10 @@ transform: translate(49%,-4%) rotate(-143deg);
 }
 .css-icon-moon{
   border-left: 5px solid;
-  border-radius: 50%
+  border-radius: 50%;
+  border-top-color:transparent;
+  border-bottom-color:transparent;
+  border-right-color:transparent; 
 }
 .css-icon-moon:before{
   border-left: 5px solid;
