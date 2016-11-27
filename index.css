@@ -13,7 +13,7 @@ body{
   height: auto;
   position: relative;
   margin: 0 auto;
-  min-width: 600px;
+  max-width: 600px;
   padding: 0 50px 50px 50px
 }
 .icon_demo{

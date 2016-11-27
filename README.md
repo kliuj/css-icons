@@ -25,4 +25,4 @@ css-icons
 
 
 
-  [1]: https://github.com/kliuj/css-icons
+  [1]: https://kliuj.github.io/css-icons/
