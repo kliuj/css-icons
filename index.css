@@ -7,6 +7,10 @@ body, html {
 body{
   background-color: #B9D194;
 }
+a{
+  text-decoration: none;
+  color:#fff
+}
 .content{
   text-align: left;
   min-height: 100%;
@@ -57,4 +61,19 @@ body{
   background-color: #504545;
   text-decoration: none;
   color:#fff
+}
+.code{
+  color:#fff;
+  font-family: georgia;
+  padding: 10px;
+  background-color: #099fde;
+  font-size:20px;
+  line-height: 25px
+}
+code{
+  padding: 0 10px
+}
+a code:hover{
+  color:#333 ;
+  font-weight: bold;
 }
