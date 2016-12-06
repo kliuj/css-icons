@@ -923,3 +923,39 @@ transform: translate(49%,-4%) rotate(-143deg);
   box-shadow: inset 0 0 0 1px,0 0 ,14px 0,14px 14px,0 14px;
   margin-top: -14px
 }
+@-webkit-keyframes rotateing{   
+    0%{  
+       transform:rotate(0deg);                   
+    }  
+    100%{  
+       transform:rotate(360deg);                    
+    }  
+}  
+@keyframes rotateing{   
+    0%{  
+       transform:rotate(0deg);                   
+    }  
+    100%{  
+       transform:rotate(360deg);                    
+    }  
+}    
+.css-icon-loading{
+  width: 24px;
+  height: 24px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  -webkit-animation:rotateing 1s ease-in-out infinite;
+  animation:rotateing 1s ease-in-out infinite;
+  -ms-transform::rotateing 1s ease-in-out infinite;
+}
+.css-icon-loading:before{
+  width: 24px;
+  height: 24px;
+  border: 2px solid #999;
+  border-radius: 50%;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  border-right-color: transparent;
+  left: -2px;
+  top:-2px;
+}
