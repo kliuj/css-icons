@@ -19,7 +19,7 @@ css-icons
 就可以看到效果
 ![image](https://github.com/kliuj/css-icons/blob/master/img/1.png)
 
-目前有47个图标，还会继续添加更新...
+目前有47个图标，不定期更新...
 
 ![image](https://github.com/kliuj/css-icons/blob/master/img/2.png)
 
